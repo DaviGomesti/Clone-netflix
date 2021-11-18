@@ -1,0 +1,157 @@
+:root{
+ --vermelho:#E50914;
+ --preta:#141414
+
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box ;
+    
+}
+
+body{
+    background: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+
+}
+
+header .container{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo{
+
+    color: var(--vermelho);
+    font-family: 'Arial Black',Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+header nav a:hover{
+    color: white;
+}
+
+
+
+/*Elementos de base */
+
+
+.filme-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/hp_fundo.jpg');
+
+    height: 400px;
+    background-size: cover; /*Para a imagem se encaixar perfeitamente no conteiner*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.filme-principal .descricao{
+    margin-top: 3px;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    margin-top:10%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.botao{
+    background-color: rgba(134, 12, 12, 0.5);
+    border: none;
+    color:white;
+    font-size: 12px;
+    padding: 15px 30px;
+    border-radius: 3px;
+    margin-right: 15px;
+
+    cursor: pointer;
+    transition: .3s ease all; /* melhora a transição do click do botão*/
+
+}
+
+.botao:hover{
+    background-color: white ;
+    color: var(--vermelho);
+    
+
+}
+ .botao i {
+     margin-right: 8px;
+     
+ }
+
+ .container{
+     margin-left: 10px;;
+ }
+
+ .filme-principal .container{
+     width: 70%;
+
+
+ }
+
+ .box-filme{
+
+    height: 100%;
+    width: 100%;
+    
+    
+
+
+ }
+ .owl-carousel{
+
+    margin-top: 10px;
+    
+ }
+
+ .titulos {
+
+    font-size: 15px;
+    font-family: 'arial Black';
+    padding: 10px;
+
+
+ }
+
+ footer {
+   
+     background-color: var(--vermelho);
+     background:rgba(134, 12, 12, 0.5);
+     align-items: center;
+     padding: 50px;
+    
+     
+ }
+
+ .rodape li{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+}
+
+
+
+
+
